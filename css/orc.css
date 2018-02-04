@@ -22,7 +22,7 @@
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: red;
+    background-color: rgba(152, 67, 22, 0.42);
     color: white;
     text-align: center;
 }

@@ -18,9 +18,10 @@
 .footer {
     position: relative;
     left: 0;
-    bottom: 0;
+    bottom: 10px;
     width: 100%;
-    background-color: red;
+    padding: 7 0 1 0;
+    background-color: rgba(161, 130, 56, 0.52);
     color: white;
     text-align: center;
 }
