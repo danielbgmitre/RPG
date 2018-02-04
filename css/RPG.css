@@ -1,14 +1,3 @@
-.footer {
-    position: relative;
-    left: 0;
-    bottom: 10px;
-    width: 100%;
-    padding: 7 0 1 0;
-    background-color: rgba(236, 160, 126, 0.61);
-    color: white;
-    text-align: center;
-}
-
 .background {
     background-position: center center fixed;
     background-size: cover;
