@@ -3,7 +3,13 @@
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: red;
+    background-color: rgba(236, 160, 126, 0.61);
+    padding-top: 6px;
     color: white;
     text-align: center;
+}
+
+body.background {
+    background-position: center center fixed;
+    background-size: cover;
 }
