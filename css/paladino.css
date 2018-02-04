@@ -1,0 +1,26 @@
+.estilo{
+	text-align: left;
+	color: black;
+}
+
+.estilo2{
+	text-align: left;
+	color: black;
+}
+
+.imagem{
+	width: 240px;
+	height: 240px;
+	padding-left: 40%
+	position: relative;
+
+}
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
