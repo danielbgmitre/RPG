@@ -11,8 +11,7 @@
 </head>
 
 <body class="estilo background" background="http://4.bp.blogspot.com/-J5bBXWwe1B0/UxpK3S9RzBI/AAAAAAAAamc/NICNsXUZChw/s1600/cronicas_rpg_by_caiomm-d6rvknz.jpg">
-
-	<object id="menu" type="text/html" data="menu.html"/>
+	<div id="menu"></div>
 
 	<h1 align="center"> Ainda não sei o que colocar aqui</h1>
 
@@ -22,3 +21,8 @@
 
 </body>
 </html>
+<script>
+	$(document).ready(function() {
+		$('#menu').load('https://danielbgmitre.github.io/RPG/views/menu.html');
+	});
+</script>
