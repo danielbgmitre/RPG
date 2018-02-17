@@ -1,6 +1,93 @@
+
 .background {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+.rpg-row {
+    padding-top: 20px;
+}
+
+.char-portrait {
+    width: 100%;
+    padding: 0 0 0 0;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 2px #fff inset,
+                -1px -1px 2px #fff inset;
+    border-radius: 12px;
+}
+
+.char-description {
+    background-color: #e6e2d39e;
+    padding: 6px 6px 6px 6px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 2px #fff inset,
+                -1px -1px 2px #fff inset;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.char-description dt {
+    font-family: palatino;
+    font-size: 3.2em;
+    font-variant: small-caps;
+    font-weight: bols;
+}
+
+.char-description dd {
+    font-family: times;
+    font-size: 2em;
+}
+
+.char-box {
+    background-color: #e6e2d39e;
+    width: 100%;
+    padding: 6px 6px 6px 6px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 2px #fff inset,
+                -1px -1px 2px #fff inset;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 20px;
+}
+
+.char-box dt {
+    font-family: palatino;
+    font-size: 2em;
+    font-variant: small-caps
+}
+
+.char-box dd {
+    font-family: times;
+    font-size: 1.4em;
+}
+
+span.char-icon {
+    float: right;
+}
+
+.char-icon img {
+    width: 50px;
+}
+
+span.box-icon {
+    float: right;
+}
+
+.box-icon img {
+    width: 40px;
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    background-color: rgba(236, 160, 126, 0.61);
+    padding-top: 10px;
+    color: white;
+    text-align: center;
 }
