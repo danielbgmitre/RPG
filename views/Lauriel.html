@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html>
 <head>
 	<link rel="stylesheet" type="text/css" href="../css/RPG.css">
 	<link rel="stylesheet" type="text/css" href="../css/assassino.css">
@@ -7,8 +9,8 @@
 </head>
 </head>
 
-<body class="estilo background" background="https://orig00.deviantart.net/5777/f/2010/063/3/d/i_collect_random_junk_by_yamiredpen.png">
-	<object id="menu" type="text/html" data="menu.html"/> 
+<body class="estilo background" background="https://danielbgmitre.github.io/RPG/imgs/ranger.png">
+	<div id='menu'></div>
 
 	<ul class="estilo">
 
@@ -64,3 +66,12 @@
  		 <p>Feito com amor</p>
 	</div>
 </body>
+</html>
+<script>
+	$(document).ready(function() {
+		$('#menu').load('https://raw.githubusercontent.com/danielbgmitre/RPG/master/views/menu.html');
+		$('#lauriel-link').ready(function() {
+			$('#lauriel-link').addClass('active');
+		});
+	});
+</script>
