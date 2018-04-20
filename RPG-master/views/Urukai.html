@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="../css/RPG.css">
+	<link rel="stylesheet" type="text/css" href="../css/orc.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+</head>
+
+<body class="background" background="http://4.bp.blogspot.com/-J5bBXWwe1B0/UxpK3S9RzBI/AAAAAAAAamc/NICNsXUZChw/s1600/cronicas_rpg_by_caiomm-d6rvknz.jpg">
+	<div id='menu'></div>
+
+	<div class="container">
+		<div class="row rpg-row">
+			<div class="col-lg-12" height="100%">
+				<img src="../imgs/orc4.png" class="char-portrait"/>
+			</div>
+			<div class="col-lg-12 char-description">
+				<dl>
+					<dt>&nbsp;&nbsp;&nbsp;&nbsp;Urukai <span class="char-icon"><img src="../imgs/S_Magic06.png" /></span></dt>
+					<dd>Classe: Paladino</dd>
+					<dd>Nível: 8.80</dd>
+					<dd>Raça: Meio-orc</dd>
+					<dd>Patrono: Oberus de Subterra</dd>
+				</dl>
+			</div>
+		</div>
+		<div class="row rpg-row" text-align="center">
+			<div class="col-lg-3 char-box">
+				<dl>
+					<dt>Atributos <span class="box-icon"><img src="../imgs/S_Buff01.png" /></span></dt>
+					<dd>Força: 17 + 5</dd>
+					<dd>Destreza: 12 + 1</dd>
+					<dd>Constuição: 18 + 5</dd>
+					<dd>Inteligência: 8 - 2</dd>
+					<dd>Sabedoria: 13 + 1</dd>
+					<dd>Carisma: 9 - 2</dd>
+				</dl>
+			</div>
+			<div class="col-lg-1"></div>
+			<div class="col-lg-3 char-box">
+				<dl>
+					<dt>Subatributos <span class="box-icon"><img src="../imgs/S_Holy03.png" /></span></dt>
+					<dd>PV Total/PV Atual: 25 / 10</dd>
+					<dd>CA: 14</dd>
+					<dd>PM Total/PM Atual: 7 / 5</dd>
+					<dd>Status(Efeito): Nenhum</dd>
+				</dl>
+			</div>
+			<div class="col-lg-1"></div>
+			<div class="col-lg-4 char-box">
+				<dl>
+					<dt>Magias e Habilidades <span class="box-icon"><img src="../imgs/I_Book.png" /></span></dt>
+					<dd>Magias e Habilidades</dd>
+					<dd>Vontade de Ferro</dd>
+					<dd>1PM - Atletismo</dd>
+					<dd>1PM - Maestria em combate</dd>
+					<dd>1PM - Intuição</dd>
+					<dd>2PM - Sentido de perigo</dd>
+				</dl>
+			</div>
+		</div>
+		<div class="row rpg-row">
+			<div class="col-lg-1">
+			</div>
+			<div class="col-lg-4 char-box">
+				<dl>
+					<dt>Equipamentos <span class="box-icon"><img src="../imgs/A_Armor04.png" /></span></dt>
+					<dd>Armadura de boneca: +2 de CA</dd>
+					<dd>Escudo: +1 de CA quando equipado</dd>
+					<dd>O espadão: 1D6</dd>
+					<dd>Lança da Ressonância: 1D6 + 1</dd>
+					<dd>Cimitarra ordeira: 1D8</dd>
+				</dl>
+			</div>
+
+
+
+			<div class="col-lg-2"></div>
+			<div class="col-lg-4 char-box">
+				<dl>
+					<dt>Inventário <span class="box-icon"><img src="../imgs/I_Chest01.png" /></span></dt>
+					<dd>Gold: 78</dd>
+				</dl>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="rpg-row"></div>
+	<div class="footer">
+ 		 <p>Feito com amor</p>
+	</div>
+
+</body>
+</html>
+<script>
+	$(document).ready(function() {
+		$('#menu').load('https://andrerosamatos.github.io/RPG/views/menu.html');
+		$('#urukai-link').ready(function() {
+			$('#urukai-link').addClass('active');
+		});
+	});
+</script>
